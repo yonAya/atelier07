@@ -1,0 +1,116 @@
+.task {
+  background-color: rgb(182, 172, 240);
+  padding: 5px;
+  width: fit-content;
+  border-radius: 5px;
+  width: 95%;
+  display: flex;
+}
+
+.todolistapp {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(182, 172, 240) 0px 5px 15px;
+  width: 70%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.ajouter legend {
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: green;
+  color: white;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  border: none;
+  padding: 5px;
+}
+
+.tasks {
+  flex-grow: 1;
+}
+
+.statics {
+  color: white;
+  background-color: brown;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.statics {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.statics p {
+  margin-left: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: small;
+}
+
+.supprimer,
+.modifier {
+  gap: 5px;
+}
+
+.supprimer legend {
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(7, 7, 102);
+  color: white;
+}
+
+.traitement {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modifier legend {
+  padding: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(87, 87, 2);
+  color: white;
+}
+
+.btn {
+  background-color: rgb(7, 7, 102);
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btns {
+  flex-grow: 1;
+  text-align: end;
+}
